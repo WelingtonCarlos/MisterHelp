@@ -8,6 +8,8 @@ export function Input({ ...rest }: IInputProps) {
       borderWidth={1}
       borderRadius={8}
       height={14}
+      fontFamily="body"
+      color="lightText"
       placeholderTextColor={"lightText"}
       _focus={{
         borderColor: "primary.500",
